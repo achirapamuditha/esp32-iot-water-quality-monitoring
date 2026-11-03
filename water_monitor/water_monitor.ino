@@ -8,12 +8,12 @@
 #include <WiFiClientSecure.h>
 
 // WIFI
-const char* ssid = "Rasindu";
-const char* password = "167890911";
+const char* ssid = "wifi-name";
+const char* password = "your-wifi-pass";
 
 // FIREBASE 
 const char* firebaseHost = "https://water-monitoring-system-b4e14-default-rtdb.asia-southeast1.firebasedatabase.app/";
-const char* firebaseApiKey = "AIzaSyATluU21UHzJlTeARSHnsvg0KPvCUz4rj8";
+const char* firebaseApiKey = "your-new-key";
 
 // SENSOR PINS 
 #define ONE_WIRE_BUS   4
